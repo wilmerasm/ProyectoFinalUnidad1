@@ -29,10 +29,16 @@ body {
     color: white;
 }
 
+.img-fluid{
+    border-radius: 80px;
+    width: 800px;
+}
 
-.container img {
-    border-radius: 75px;
-    
+.backgroud-1 {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    border-radius: 50px;
 }
 
 
@@ -43,21 +49,18 @@ body {
 }
 
 
-.img-fluid {
-    border-radius: 10px;
-    width: 600px;
-}
-
-
 p {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .titulo-2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 120, 120)
 }
+
 
 /* Estilos personalizados para el footer */
 .footer {
@@ -79,7 +82,7 @@ p {
     text-decoration: underline;
 }
 
-.titulo-h5{
+.titulo-h5 {
     color: rgb(255, 120, 120);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
